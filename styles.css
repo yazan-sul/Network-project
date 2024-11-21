@@ -1,0 +1,112 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    width: 100%;
+}
+
+header {
+    background-color: #4c4eaf;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+}
+#team-members {
+    padding: 20px;
+    background-color: white;
+}
+
+#team-members table {
+    margin: auto;
+}
+.container{
+    margin: auto;
+
+    padding: 10px;
+    max-width: 600px;
+}
+.team-member {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+.member1{
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+}
+
+.team-member img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.team-member h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: #555;
+}
+
+  
+.box:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+ }
+
+img {
+    width: 100%;
+    max-width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+    border: 2px solid #80ff00;
+}
+
+img:hover {
+transform: scale(1.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #00fbff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: #4c4eaf;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.links a {
+    color: #4c4eaf;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
