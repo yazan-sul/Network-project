@@ -22,9 +22,16 @@ function isVideo(filename) {
 // handle the search request
 app.get("/view_image", (req, res) => {
   const filename = req.query.filename;
-  const filePath = path.join(__dirname, "imgs", filename);
   // send file if exist in file system
-  if (fs.existsSync(filePath)) {
+  const folders = ["html","imgs", "css"];
+  for(let i=0; i<3;i++){
+    const filePath = path.join(__dirname, folders[i], filename);
+    if (fs.existsSync(filePath)) {
+      return res.sendFile(filePath);
+    }
+  }
+  
+  if(filename.match(/\.(html|css)$/i)){
     return res.sendFile(filePath);
   }
   // if it is an image redirect with 307 status response to google with the searched file

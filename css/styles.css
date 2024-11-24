@@ -60,11 +60,6 @@ h1, h2, h3 {
     color: #555;
 }
 
-  
-.box:hover {
-    background-color: rgba(0, 0, 0, 0.8);
- }
-
 img {
     width: 100%;
     max-width: 300px; 
