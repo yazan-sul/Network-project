@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نتورك-ويب سيرفر</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+          direction: rtl;
+          text-align: right;
+        }
+        .container {
+          direction: rtl;
+          text-align: right;
+        }
+        .links {
+          text-align: center;
+        }
+      </style>
+</head>
+<body>
+    <header>
+        <h1>مرحباً بكم في نتورك - خادم الويب لشبكات الكمبيوتر</h1>
+    </header>
+    
+    <section id="team-members">
+        <table>
+            <tr>
+                <td class="team-member">
+                    <img src="yazan.png" alt="Member 1" class="member-photo" onclick="location.href='yazanCVAR.html';" width="300" height="300">
+                    <div>يزن</div>
+                </td>
+                <td class="team-member">
+                    <img src="khaled.png" alt="Member 2" class="member-photo" onclick="location.href='khaledCVAR.html';" width="300" height="300">
+                    <div>خالد</div>
+                </td>
+                
+                <td class="team-member">
+                    <img src="aborob.png" alt="Member 3" class="member-photo" onclick="location.href='abdullahCVAR.html';" width="300" height="300">
+                    <div>عبدالله</div>
+                </td>
+            </tr>
+            
+        </table>
+    </section>
+    <div class="topic">
+      <h2>نظرة عامة على الشبكات الحاسوبية</h2>
+      <div>
+          <h5>مقدمة في الشبكات الحاسوبية</h5>
+          <ul>
+              <li>الشبكة الحاسوبية تسمح للأجهزة بالتواصل ومشاركة الموارد عبر المسافات الجغرافية.</li>
+              <li>الشبكات أساسية في الطريقة التي نتفاعل بها مع العالم اليوم، من الإنترنت إلى الشبكات المحلية (LAN).</li>
+              <li>الهيكل الأساسي للشبكة يتضمن عدة مكونات مثل:
+                  <ul>
+                      <li>الأجهزة (أجهزة الكمبيوتر، الهواتف الذكية، إلخ)</li>
+                      <li>روابط الاتصال (الكابلات، الإشارات اللاسلكية)</li>
+                      <li>البروتوكولات (قواعد الاتصال)</li>
+                  </ul>
+              </li>
+              <li>فهم كيفية عمل الشبكات وكيفية هيكلتها أمر بالغ الأهمية لإدارة أنظمة الاتصال بشكل فعال.</li>
+          </ul>
+      </div>
+  
+      <div>
+          <h5>الهيكلية الطبقية للشبكات</h5>
+          <ul>
+              <li>النموذج الأكثر شيوعًا لفهم الشبكات الحاسوبية هو نموذج OSI (النموذج المرجعي للأنظمة المفتوحة)، الذي يقسم الشبكات إلى سبع طبقات.</li>
+              <li>كل طبقة تتعامل مع جانب معين من الشبكة، من النقل الفيزيائي للبيانات إلى التفاعلات على مستوى التطبيقات.</li>
+              <li>ومع ذلك، في الممارسة العملية، يتم استخدام نموذج TCP/IP، وهو نسخة مبسطة، لبروتوكولات الإنترنت.</li>
+              <li>يقسم هذا النموذج الوظائف إلى أربع طبقات:
+                  <ul>
+                      <li>التطبيق</li>
+                      <li>النقل</li>
+                      <li>الإنترنت</li>
+                      <li>وصول الشبكة</li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+      <div>
+          <h2>أمثلة على الشبكات الحاسوبية</h2>
+          <ol>
+              <li>
+                  <h5>الشبكات المحلية (LAN)</h5>
+                  <p>تربط الشبكات المحلية الأجهزة ضمن منطقة محدودة مثل المنزل أو المكتب. وتوفر سرعات نقل بيانات عالية وغالبًا ما تكون متصلة من خلال الأسلاك (إيثرنت) أو الاتصال اللاسلكي (واي فاي).</p>
+                  <img src="lans.jpg" alt="الشبكة المحلية (LAN)" width="400" height="100">
+              </li>
+              <li>
+                  <h5>الشبكات الواسعة (WAN)</h5>
+                  <p>تغطي الشبكات الواسعة منطقة جغرافية أكبر، مثل مدينة أو دولة أو حتى قارات. الإنترنت هو أكبر وأشهر مثال على الشبكة الواسعة. تتطلب الشبكات الواسعة روابط اتصال عالية السعة، وغالبًا ما تستخدم كابلات الألياف الضوئية أو الاتصالات عبر الأقمار الصناعية لإدارة كميات ضخمة من حركة مرور البيانات.</p>
+                  <img src="wans.jpg" alt="الشبكة الواسعة (WAN)" width="500" height="auto">
+              </li>
+          </ol>
+      </div>
+  </div>
+  
+    
+    <div class="links">
+        <a href="supporting_material_arb.html">صفحة المواد الداعمة</a>
+        ----
+        <a href="https://gaia.cs.umass.edu/kurose_ross/index.php">كتاب تدريس</a>
+        ----
+        <a href="https://www.birzeit.edu/" target="_blank">جامعة بيرزيت</a>
+      </div>
+      <div class="links">
+        <a href="main_eng.html">english</a>
+        ----
+        <a href="main_arb.html">عربي</a>
+      </div>
+</body>
+</html>
